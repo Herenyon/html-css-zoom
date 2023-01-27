@@ -10,6 +10,7 @@ body{
     font-family: 'Mulish', sans-serif;
     height: 100vh;
     color: white;
+    background-color: black;
     /* background-color: black; */
 }
 header{
@@ -17,7 +18,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     height: 40px;
-    border: 1px solid red;
+    
     
 }
 
@@ -35,15 +36,51 @@ header{
 
 
 main{
-
-    background-color: aliceblue;
+    width: 90vw;
+    margin: 0 auto;
+    
     height: calc(100% - 120px);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.utente{
+    
+    display: flex;
+    position: relative;
+    height: 150px;
+    border: 1px solid black;
+
+}
+img{
+    width: 200px;
+    height: 150px;
+    display: block;
+}
+
+.etichetta-nome{
+
+
+    position: absolute;
+    bottom: 5px;
+    left:5px;
+    background-color: rgba(133, 133, 133, 0.5);
+    padding: 3px;
+    border-radius: 3px;
 }
 
 footer{
-
+    position: fixed;
     height: 80px;
     border: 1px solid red;
-
+    width: 100%;
+    background-color: grey;
+    z-index: 200;
+    display: flex;
 }
+
 
