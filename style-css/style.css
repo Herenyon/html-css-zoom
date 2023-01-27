@@ -1,0 +1,32 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    height: 100vh;
+    background-color: black;
+}
+header{
+
+    height: 40px;
+    border: 1px solid red;
+    
+}
+
+main{
+
+    background-color: aliceblue;
+    height: calc(100% - 120px);
+}
+
+footer{
+
+    height: 80px;
+    border: 1px solid red;
+
+}
