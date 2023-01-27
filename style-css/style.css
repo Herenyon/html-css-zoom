@@ -1,3 +1,5 @@
+/* area comune*/
+
 *{
 
     margin: 0;
@@ -11,8 +13,10 @@ body{
     height: 100vh;
     color: white;
     background-color: black;
-    /* background-color: black; */
+    
 }
+
+/* inizio caratteristiche elementi header */
 header{
     display: flex;
     justify-content: flex-end;
@@ -29,12 +33,12 @@ header{
 
 .head-items{
     display: inline;
-    background-color: grey;
+    background-color: rgba(133, 133, 133, 0.5);
     border-radius: 5px;
-    padding: 3px 3px;
+    padding: 3px 5px;
 }
 
-
+/* inizio caratteristiche elementi main  */
 main{
     width: 90vw;
     margin: 0 auto;
@@ -73,14 +77,75 @@ img{
     border-radius: 3px;
 }
 
+/* inizio caratteristiche elementi footer  */
 footer{
     position: fixed;
     height: 80px;
-    border: 1px solid red;
+    
     width: 100%;
     background-color: grey;
     z-index: 200;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-destra, .foot-sinistra{
+    
+    width: 20%;
+    padding: 0 25px;
+    text-align: left;
+    
+}
+
+.etichetta-icone, .chevron{
+
+    font-size: 13px;
+}
+
+.chevron{
+
+    margin: 0 5px;
+}
+button{
+    display: flex;
+    color: inherit;
+    background: none;
+    border: none;
+    font-size: 25px;
+    display: inline;
+    
 }
 
 
+
+.foot-centro{
+    display: flex;
+    gap: 20px;
+
+}
+
+.fa-share-from-square{
+
+    color: green;
+}
+
+.foot-destra{
+   display: flex;
+    align-items: center;
+    
+    justify-content: flex-end;
+}
+#end-meeting{
+    font-size: 13px;
+    color: red;
+    
+    
+}
+
+.foot-destra #end-meeting{
+
+    padding: 30px ;
+    background-color: darkgrey;
+
+}
